@@ -10,7 +10,7 @@
 
 body {
     line-height: 1.5;
-    background-image: url("img/Sign up form v1.jpg");
+    background-image: url("img/Background Mobile.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
@@ -28,3 +28,6 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
+
+
+ 
