@@ -10,6 +10,10 @@
 
 body {
     line-height: 1.5;
+    background-image: url("img/Sign up form v1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
 }
 
 img, picture, video, canvas, svg {
