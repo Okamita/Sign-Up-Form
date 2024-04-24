@@ -10,10 +10,14 @@
 
 body {
     line-height: 1.5;
-    background-image: url("img/Background Mobile.jpg");
+    background-image: url("img/Sign up form v1.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
+
+    display: flex;
+    flex: column;
+    align-items: center;
 }
 
 img, picture, video, canvas, svg {
@@ -29,5 +33,63 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
 
- 
+.logo-search-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.logo-search-Container h1{
+    color: #FFF;
+    text-align: justify;
+    text-shadow: 17px 43px 13px rgba(0, 0, 0, 0.00), 11px 28px 12px rgba(0, 0, 0, 0.01), 6px 16px 10px rgba(0, 0, 0, 0.05), 3px 7px 7px rgba(0, 0, 0, 0.09), 1px 2px 4px rgba(0, 0, 0, 0.10);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+.search-Form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+
+    width: 528px;
+    padding: 4px 16px;
+    border-radius: 4px;
+
+    box-shadow: 242px 286px 105px 0px rgba(0, 0, 0, 0.00), 155px 183px 96px 0px rgba(0, 0, 0, 0.01), 87px 103px 81px 0px rgba(0, 0, 0, 0.05), 39px 46px 60px 0px rgba(0, 0, 0, 0.09), 10px 11px 33px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+
+.search-Form input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none; 
+    font-size: 20px;
+    color: #212231;
+}
+
+.search-Form button{
+    border: 0;
+    background: transparent;
+
+    width: 24px;
+    height: 24px; 
+}
+
+
