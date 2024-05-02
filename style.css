@@ -16,8 +16,13 @@ body {
     background-position: center top;
 
     display: flex;
-    flex: column;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    min-height: 100dvh;
+
+    color: #FFF;
+    font-family: Roboto;
 }
 
 img, picture, video, canvas, svg {
@@ -34,6 +39,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 header{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 16px;
@@ -67,7 +73,7 @@ header{
     background-color: white;
 
     width: 528px;
-    padding: 4px 16px;
+    padding: 5px 16px;
     border-radius: 4px;
 
     box-shadow: 242px 286px 105px 0px rgba(0, 0, 0, 0.00), 155px 183px 96px 0px rgba(0, 0, 0, 0.01), 87px 103px 81px 0px rgba(0, 0, 0, 0.05), 39px 46px 60px 0px rgba(0, 0, 0, 0.09), 10px 11px 33px 0px rgba(0, 0, 0, 0.10);
@@ -80,8 +86,10 @@ header{
     flex: 1;
     border: 0;
     outline: none; 
-    font-size: 20px;
+    
     color: #212231;
+
+    font-size: 20px;
 }
 
 .search-Form button{
@@ -93,3 +101,126 @@ header{
 }
 
 
+.rightHeaderContainer{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.home,
+.games,
+.rightHeaderContainer button{
+    color: #FFF;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.rightHeaderContainer button{
+    border-radius: 4px;
+    background: #48BE84;
+    box-shadow: 31px 57px 18px 0px rgba(0, 0, 0, 0.00), 20px 37px 17px 0px rgba(0, 0, 0, 0.01), 11px 21px 14px 0px rgba(0, 0, 0, 0.05), 5px 9px 10px 0px rgba(0, 0, 0, 0.09), 1px 2px 6px 0px rgba(0, 0, 0, 0.10);
+    border: 0;
+    padding: 8px 16px;
+}
+
+.signUpContainer{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 62px;
+
+    width: 429px;
+    height: 713px;
+    padding: 32px 48px;
+    border-radius: 16px;
+    background: #212231;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.07), 0px 2px 2px 0px rgba(0, 0, 0, 0.07), 0px 4px 4px 0px rgba(0, 0, 0, 0.07), 0px 8px 8px 0px rgba(0, 0, 0, 0.07), 0px 16px 16px 0px rgba(0, 0, 0, 0.07);
+}
+
+.firstContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:32px;
+    height: 66px;
+}
+
+.firstContainer:first-child{
+    color: #F1F1F1;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 62.5% */
+}
+
+.secondText{
+    color: #C6C6C6;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 8px; /* 50% */
+}
+
+.secondText a{
+    color: #60EC98;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 8px;
+    text-decoration: none;
+}
+
+.signUpGoogleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.signUpGoogleContainer button{
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    width: 60%;
+}
+
+.signUpGoogleContainer button img{
+    width: 16px;
+    height: 16px;
+}
+.signUpGoogleContainer button span{
+    color: #212231;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px; /* 0% */
+}
+
+.signUpGoogleContainer div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.signUpGoogleContainer div div{
+    background: #FFF;
+    width: 149px;
+height: 1px;
+border-radius: 8px;
+}
+
+.mainContainer{
+    gap: 32px;
+}
